@@ -1,0 +1,10 @@
+/* Hide vertical scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0px;
+  /* background: transparent; Optional */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;   
+}
